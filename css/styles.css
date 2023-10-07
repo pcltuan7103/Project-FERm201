@@ -1,0 +1,84 @@
+
+.navbar-dark {
+    background-color: #98C5E9;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.row-content {
+    margin: 0px auto;
+    padding: 150px 0px 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+  }
+.carousel {
+    background: #98C5E9;
+  }
+  .carousel .carousel-item {
+    height: 500px;
+  }
+  .carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+  
+  #carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .new-match{
+    padding: 50px 0 50px 0;
+  }
+.tittle-match{
+  border: 5px solid gray;
+  padding: 20px 0 20px 0;
+  margin: 0 400px 0px 400px;
+  border-radius: 50px;
+  
+}
+.tittle-match h2{
+  margin-bottom: 0;
+}
+.match{
+  padding: 50px 0 50px 0;
+  border: 5px solid #98C5E9;
+  border-radius: 50px;
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+.footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.name-players{
+  color: #001838;
+  background-color: white;
+  height: 100px;
+  
+}
+.name-players:hover{
+  color: white;
+  background-color: #001838;
+}
+.name-players h1{
+  font-weight: bold;
+}
+#name-tour{
+  background-color: #98C5E9;
+}
+.name-tournament{
+  font-weight: bold;
+  padding: 0 20px 0 20px;
+}
+.matchs{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
